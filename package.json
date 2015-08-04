@@ -1,0 +1,27 @@
+{
+  "name": "simple-node-site",
+  "version": "1.0.0",
+  "description": "Basic three page site built with Node routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleturco/simple-node-site.git"
+  },
+  "author": "Kyle Turco <kyleturco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyleturco/simple-node-site/issues"
+  },
+  "homepage": "https://github.com/kyleturco/simple-node-site#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "less-middleware": "^2.0.1",
+    "loggly": "^1.0.8",
+    "morgan": "^1.6.1"
+  }
+}
